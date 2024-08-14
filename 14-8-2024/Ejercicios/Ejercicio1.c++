@@ -11,7 +11,7 @@ int main(){
     resta=num1-num2;
     multi=num1*num2;
     div=num1/num2;
-    cout<<"tu suma es: "<<suma;
-    cout<<"tu resta es: "<<resta;
-    cout<<"tu multiplicacion es: "<<multi;
-    cout<<"tu divicion es: "<<div;
+    cout<<"tu suma es: "<<suma<<endl;
+    cout<<"tu resta es: "<<resta<<endl;
+    cout<<"tu multiplicacion es: "<<multi<<endl;
+    cout<<"tu divicion es: "<<div<<endl;
