@@ -12,7 +12,7 @@ int main(){
         cout<<"paso la prueba "<<endl;
     }
     else{
-        cout<<"usted ha suoerado la prueba de acceso"<<endl;
+        cout<<"usted ha suoerado la prueba de acceso (s/n)"<<endl;
         cin>>superoPrueba;
 
         if (superoPrueba=='s')
