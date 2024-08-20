@@ -20,6 +20,4 @@ int main() {
     calificacionFinal = (promedio * 0.55) + (ExamenFinal * 0.30) + (trabajoFinal * 0.15);
     cout << "La calificación final es: " << calificacionFinal << "\n";
     
-
-
 }
