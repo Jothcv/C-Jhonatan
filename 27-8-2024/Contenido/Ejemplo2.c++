@@ -2,10 +2,10 @@
 using namespace std;
 
 int main() {
-  int numero = 1;
-  while (numero <= 10) {
-    cout << numero << endl;
-    numero++;
+  int i=1;
+  while (i<10)
+  {
+    cout<<"i es: "<<i;
+    i++;
   }
-  return 0;
 }
