@@ -15,4 +15,4 @@
 2) Permitir ingresar al usuario n numeros mientras no sean negativos, al finalizar, mostrar los numeros ingresados
 
 3) Realizar un programa que pida dos numeros enteros y muestre los numeros pares que hay entre el numero 1 y el numero 2,
-validar que el numero 1 sea mayor al numero 2
+validar que el numero 1 sea mayor al numero 2 solo con switch y en c++
