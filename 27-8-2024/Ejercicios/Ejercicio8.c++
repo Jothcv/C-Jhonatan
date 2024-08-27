@@ -18,15 +18,15 @@ int main() {
         if (numero >= 0 && numero <= 25) {
             suma0a25 += numero;
         }
-
-        if (numero >= 25 && numero <= 75) {
+        else if (numero>= 25 && numero <=75)
+        {
             suma25a75 += numero;
         }
-
-        if (numero > 36) {
+        else if (numero>36)
+        {
             sumaMayores36 += numero;
         }
-
+        
         contador++;
     } while (contador < cantidadNumeros);
 
