@@ -7,4 +7,3 @@
 3) Pedir al usuario el ingreso de un numero y mostrar un triangulo rectangulo dependiendo del numero que se ingrese
 
 4) pedir el ingreso de dos rangos de numeros y mostrar la sumo de cada uno y cual menor o mayor
-
