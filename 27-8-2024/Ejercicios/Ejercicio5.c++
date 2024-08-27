@@ -10,5 +10,4 @@ int main(){
         cout<<"el numero es: "<<suma<<endl;
         n+=2;
     }
-    
 }
