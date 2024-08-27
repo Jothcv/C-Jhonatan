@@ -19,6 +19,6 @@
 
 ### Ejercicios con do-while
 
-1) realizr un programa que pregunte cuantos numeros desea ingresar y muestre la suma de los numero entre 0 y 25, de los numeros entre 25 y 75 y los mayores a 36
+1) realizr un programa que pregunte cuantos numeros desea ingresar y muestre la suma de los numero entre 0 y 25, de los numeros entre 25 y 75 y los mayores a 36 en c++ y solo usando do while
 
 2) Los padres de juanita prometieron darle 5 quetzales cuando cumpliera 10 años y duplicar el regalo en cada cumpleaños hasta que el monto exceda los 200 quetzales. Realizar un programa que determine que edad tendre juanitga cuando se le de la ultima cantidad y el total del dinero recibido
