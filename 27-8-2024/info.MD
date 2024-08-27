@@ -8,7 +8,7 @@
 
 4) pedir el ingreso de dos rangos de numeros y mostrar la sumo de cada uno y cual menor o mayor
 
-# ejercicio con while
+## Ejercicio con while
 
 1) Realizar un programa que muestre la suma de los numeros impares de 1 a 100
 
