@@ -2,20 +2,25 @@
 using namespace std;
 
 int main(){
-    for (int i = 0; i < 10; i++)
-    {
-        int num1;
-        cout<<"ingresa tu numero. "<<i+1<<endl;
-        cin>>num1;
-
-        if (i%num1==0)
-        {
-            cout<<"tu numero es primo: "<<num1;
+    int numeros;
+    int contPrimos = 0;
+    int contCompuesto = 0;
+    for(int i = 1; i <= 10; i++){
+        int contador = 0;
+        cout <<"Ingrese el numero "<<i<<": ";
+        cin >>numeros;
+        for(int j = 1; j <= numeros; j++){
+            if(numeros % j == 0){
+                contador++;
+            }
+        }
+        if(contador == 2){
+            contPrimos++;
         }
         else{
-            cout<<"no es primo";
+            contCompuesto++;
         }
-
     }
-    
+    cout <<"La cantidad de numeros primos son: "<<contPrimos<<endl;
+    cout <<"La cantidad de numeros compuestos son: "<<contCompuesto<<endl;
 }
