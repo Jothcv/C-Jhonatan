@@ -12,7 +12,7 @@ int main() {
         totalRecibido *= 2;
         edad++;
     } while (totalRecibido<limiteTotal);
-    cout << "juanita tendra " << edad << " años cuando reciba mas de " << limiteTotal <<endl;
+    cout << "juanita tendra " << edad << " años cuando reciba mas de Q" << limiteTotal <<endl;
     cout << "El total de dinero recibido sera de Q" << totalRecibido <<endl;
 
 }
