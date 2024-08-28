@@ -18,25 +18,25 @@ return 0;
 }
 
 int suma(int a, int b){
-int resultado = a + b;
-cout <<"El resultado de la suma es: "<<resultado<<endl;
-return resultado;
+int res = a + b;
+cout <<"El resultado de la suma es: "<<res<<endl;
+return res;
 }
 
 int resta(int a, int b){
-int resultado = a - b;
-cout <<"El resultado de la resta es: "<<resultado<<endl;
-return resultado;
+int res = a - b;
+cout <<"El resultado de la resta es: "<<res<<endl;
+return res;
 }
 
 int multi(int a, int b){
-int resultado = a * b;
-cout <<"El resultado de la multiplicacion es: "<<resultado<<endl;
-return resultado;
+int res = a * b;
+cout <<"El resultado de la multiplicacion es: "<<res<<endl;
+return res;
 }
 
 int div(int a, int b){
-int resultado = a / b;
-cout <<"El resultado de la divicion es: "<<resultado<<endl;
-return resultado;
+int res = a / b;
+cout <<"El resultado de la divicion es: "<<res<<endl;
+return res;
 }

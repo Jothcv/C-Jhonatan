@@ -15,7 +15,4 @@ int main(){
             cout<<"el mes tiene 30 dias";
     else
         cout<<"no es valido tu numero";
-        
-    
-
 }
