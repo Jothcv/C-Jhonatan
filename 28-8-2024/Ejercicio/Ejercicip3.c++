@@ -11,12 +11,12 @@ struct Persona {
 };
 
 void interseccion();
-void imprimir(Persona personas[2]);
+void imprimir(Persona personas[5]);
 
 int main() {
-    Persona personas[2];
+    Persona personas[5];
 
-    for(int i = 0; i < 2; i++) {
+    for(int i = 0; i < 5; i++) {
         cout << "Ingresa los datos de la persona " << i + 1 << ":" << endl;
 
         cout << "Nombre: ";
@@ -46,16 +46,16 @@ void interseccion(){
     cout<<"aqui se muestran a las personas que se ingresaron:"<<endl;
 }
 
-void imprimir(Persona personas[2]) {
-    for(int i = 0; i < 2; i++) {
+void imprimir(Persona personas[5]) {
+    for(int i = 0; i < 5; i++) {
 
         cout<<"-----------------------------------------------------------";
         cout << "Persona " << i + 1 << ":" << endl;
-        cout << "Nombre: " << personas[i].nombre << endl;
-        cout << "Edad: " << personas[i].edad << endl;
-        cout << "Género: " << personas[i].genero << endl;
-        cout << "Altura: " << personas[i].altura << " m" << endl;
-        cout << "Departamento: " << personas[i].departamento << endl;
+        cout << "nombre " << personas[i].nombre << endl;
+        cout << "edad: " << personas[i].edad << endl;
+        cout << "genreo " << personas[i].genero << endl;
+        cout << "altura " << personas[i].altura << " m" << endl;
+        cout << "departamento " << personas[i].departamento << endl;
         cout << endl;
     }
 }
