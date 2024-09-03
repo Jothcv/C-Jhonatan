@@ -65,7 +65,6 @@ int main(){
     uni.NotaFinal=notaFinal1;
     uni.Carrera=carrera1;
     emp.sueldo=sueldo1;
-    
 
     uni.mostrarNomEd();
     uni.mostrarNot();
