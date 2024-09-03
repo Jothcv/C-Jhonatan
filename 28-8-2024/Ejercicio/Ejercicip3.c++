@@ -25,13 +25,13 @@ int main() {
         cout << "Edad: ";
         cin >> personas[i].edad;
 
-        cout << "Género: ";
+        cout << "genero: ";
         cin >> personas[i].genero;
 
-        cout << "Altura: ";
+        cout << "altura: ";
         cin >> personas[i].altura;
 
-        cout << "Departamento: ";
+        cout << "departamento: ";
         cin >> personas[i].departamento;
 
         cout << endl;
@@ -54,7 +54,7 @@ void imprimir(Persona personas[5]) {
         cout << "nombre " << personas[i].nombre << endl;
         cout << "edad: " << personas[i].edad << endl;
         cout << "genreo " << personas[i].genero << endl;
-        cout << "altura " << personas[i].altura << " m" << endl;
+        cout << "altura " << personas[i].altura << endl;
         cout << "departamento " << personas[i].departamento << endl;
         cout << endl;
     }
