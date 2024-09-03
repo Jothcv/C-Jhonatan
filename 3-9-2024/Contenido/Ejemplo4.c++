@@ -1,3 +1,4 @@
+//encapsulamiento
 #include <iostream>
 #include <string.h>
 using namespace std;
@@ -24,3 +25,6 @@ int main(){
     carrito1.acelerar();
     cout<<"la velocidad es: "<<carrito1.getvelocidad();
 }
+
+
+//clase objeto erencia polimorfismo que es y como se hace 
