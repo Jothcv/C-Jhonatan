@@ -18,12 +18,11 @@ int main() {
     
     cout << "Ingrese 10 nombres: " << endl;
     for (int i = 0; i < 10; i++) {
-        cout << "Nombre " << i+1 << " ";
+        cout << "Nombre " << i+1;
         cin >> nombre;
         archivo << nombre << endl;
     }
     
     archivo.close();
-    
     
 }
