@@ -72,5 +72,4 @@ int main(){
 
     emp.mostrarSueldo();
 
-
 }
