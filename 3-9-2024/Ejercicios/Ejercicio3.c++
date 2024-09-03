@@ -17,5 +17,5 @@ int main() {
 
     cout << "El programa finallizo exitosamente: " <<endl;
     archivo.close(); 
-    return 0;
+    
 }
