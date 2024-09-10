@@ -185,8 +185,17 @@ float IniciarSesion(){
     if (archivo.is_open())
     {
         archivo>>usuarioGuardado>>ContraseniaGuardado;
+        archivo.close();
     }
-    
-    
+    return (usuario==usuarioGuardado && contrasenia==ContraseniaGuardado);
+}
+
+void RegistrarUsusrio(){
+    string usuario,contrasenia;
+    cout<<"ingresa un usuario: ";
+    cin>>usuario;
+    cout<<"ingresa la contrasenia: ";
+    cin>>contrasenia;
+
 }
 
